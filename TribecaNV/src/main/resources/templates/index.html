@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Velkommen til TribecaNV</h1>
+
+<h2>Indtast ny medarbejder</h2>
+
+<form action="/Employee/create" method="post">
+
+    <input type="text" placeholder="Fornavn" name="first_name">
+    <input type="text" placeholder="Efternavn" name="last_name">
+    <input type="submit" value="Indsend">
+
+</form>
+
+<br>
+<a href="/Employee/viewAll">Se alle ansatte</a>
+<br>
+
+<h2>Indtast ny lejer</h2>
+
+<form action="/Renter/create" method="post">
+
+    <input type="text" placeholder="Renters name" name="renters_name">
+    <input type="submit" value="Indsend">
+    <br>
+    <br>
+    <a href="/Renter/viewallrenters">Se alle lejere</a>
+
+</form>
+</body>
+</html>
